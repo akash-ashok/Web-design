@@ -1,0 +1,185 @@
+.home_link img{
+    width: 50px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.main_container{
+    padding: 0 10px;
+    background-image: url(./image.png);
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+}
+
+.contanier{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.home_link{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_box{
+    width: calc(100% - 80px);
+    padding-left: 25px;
+}
+
+#search{
+    width: 100%;
+    height: 60px;
+    border: solid 1px #4444;
+    padding-left: 20px;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    outline: none;
+}
+
+#search::placeholder{
+    color: #C69C9C;
+}
+
+main{
+    background-color: #fff;
+    padding: 25px 0px 10px;
+    border-radius: 40px;
+    border: solid 1px #4444;
+}
+
+h1{
+    width: max-content;
+    margin: auto;
+    background-color: #F04F4F;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 2.5rem;
+    padding: 5px 60px;
+}
+
+.add_banner{
+    background-color: #F3F5C5;
+    color: #FF0000;
+    padding: 10px 0px;
+    margin: 20px 0px;
+    font-size: 1.25rem;
+}
+
+.programs_list{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.program{
+    
+    width: 25%;
+    padding: 20px;
+}
+
+.program_title{
+    width: 100%;
+    background-color: #3D4F68;
+    color: #fff;
+    padding: 15px;
+    border-radius: 15px 40px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.program_card{
+    background-color: #EECCCC;
+    margin: 25px 15px;
+    padding: 10px;
+}
+
+.program_image img{
+    width: 100%;
+    border-radius: 50px;
+    border: solid 1px #4444;
+}
+
+.program_details{
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.program_info_text{
+    text-align: center;
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.program_enroll_button{
+    color: #fff;
+    width: max-content;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #7FB80D;
+    margin: 10px auto 0px;
+    font-size: 1.1rem;
+}
+
+footer{
+    background-color: #3D4F68;
+    padding: 20px 10px;
+    text-align: center;
+    margin-top: 40px;
+    color: #EECCCC;
+}
+
+.footer_links{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width:1080px) {
+    .program {
+        width: 50%;
+    }
+    
+}
+
+@media only screen and (max-width:600px) {
+    .program {
+        width: 100%;
+    }
+
+    .home_link img{
+        width: 30px;
+    }
+
+    .home_link {
+        width: 50px;
+        height: 50px;
+    }
+    
+}
+
+@media only screen and (max-width:400px) {
+     h1 {
+        font-size: 1.5rem;
+    }
+    
+}
